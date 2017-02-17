@@ -8,15 +8,11 @@ namespace RPSLS
 {
     public class AI : Player
     {
-        //member variables
-
-        //constructor
         public AI()
         {
             name = "Ralph";
         }
 
-        //methods
         public override void GetShoot()
         {
             Random rnd = new Random();

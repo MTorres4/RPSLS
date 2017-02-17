@@ -8,10 +8,8 @@ namespace RPSLS
 {
     public class Human : Player
     {
-        //member variables
         string[] roundOptions = { "Rock", "Paper", "Scissors", "Lizard", "Spock" };
 
-        //constructor
         public Human()
         {
         }

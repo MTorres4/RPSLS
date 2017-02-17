@@ -8,18 +8,15 @@ namespace RPSLS
 {
     public class Player
     {
-        //member variables
         public string name;
         public int score;
         public int shoot;
 
-        //constructor
         public Player()
         {
             this.score = 0;
         }
 
-        //methods
         public virtual void GetShoot()
         {
 

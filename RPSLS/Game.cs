@@ -8,17 +8,14 @@ namespace RPSLS
 {
     public class Game
     {
-        //member variables
         Player playerOne;
         Player playerTwo;
 
-        //constructor
         public Game()
         {
             playerOne = new Human();
         }
 
-        //methods
         private void Welcome()
         {
             Console.WriteLine("Welcome to Rock, Paper, Scissors, Lizard, Spock!"
